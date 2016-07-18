@@ -367,7 +367,7 @@ function submit_demographis() {
     }
     if (isNaN(age) == true || isNaN(education) == true) {
         alert("Please enter a number value for age and education.");
-        return false;
+        return none;
     }
     else {
         sendRequestPost('gender', gender);

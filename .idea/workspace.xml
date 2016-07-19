@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e9bab7-0b60-4ba2-9fa1-0e53bc23d7b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/b.2A60_TriCompSnapVertexCat.html" afterPath="$PROJECT_DIR$/b.2A60_TriCompSnapVertexCat.html" />
     </list>
     <ignored path="B.2A60Survey.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="b.2A60_TriCompSnapVertexCat.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/b.2A60_TriCompSnapVertexCat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="566">
+              <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -144,12 +143,12 @@
       <updated>1468617443962</updated>
       <workItem from="1468617445220" duration="343000" />
       <workItem from="1468618697730" duration="5658000" />
-      <workItem from="1468940976927" duration="151000" />
+      <workItem from="1468940976927" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6152000" />
+    <option name="totallyTimeSpent" value="6735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="23" width="1620" height="987" extended-state="0" />
@@ -271,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/b.2A60_TriCompSnapVertexCat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="566">
+          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
           <folding />
         </state>
       </provider>

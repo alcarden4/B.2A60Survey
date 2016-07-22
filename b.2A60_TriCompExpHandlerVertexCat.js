@@ -106,11 +106,11 @@ function trainTriangle() {
     // drawing the triangle
     //parameters of the run:
     var LengthAngleSideOrig = 100;
-    var AngleOrig = Math.PI / 3; //Size of angle in radians - 60 deg
+    var AngleOrig = Math.PI / 4; //Size of angle in radians - 45 deg
     var LengthBaseOrig = 600; //Max Base Length
     var TriBaseXStartOrig = 150; //Origin position in the X axis for maximal base length
     var TriBaseXEndOrig = LengthBaseOrig + TriBaseXStartOrig; //End position of base for maximal base length
-    var BaseLengthFactor = 0.2;
+    var BaseLengthFactor = 0.7;
     var BaseLength = LengthBaseOrig * BaseLengthFactor;
     var TriBaseXStart = TriBaseXStartOrig + 0.5 * (1 - BaseLengthFactor) * LengthBaseOrig;
     var TriBaseXEnd = TriBaseXStart + BaseLength;
@@ -148,20 +148,20 @@ function trainTriangle() {
 
     DecrDist = function () {
         paper2.clear();
-        DrawTestTriangle(TriBaseXStart, TriBaseXEnd - 10, TriBaseYPos, TriSideXLengthIn, TriSideYLengthUp);
+        DrawTestTriangle(TriBaseXStart + 20, TriBaseXEnd - 20, TriBaseYPos, TriSideXLengthIn, TriSideYLengthUp);
     };
 
     IncrAng = function () {
         paper2.clear();
-        TriSideYLengthUp = Math.tan(Math.PI / 2.2) * LengthAngleSideOrig * BaseLengthFactor;
-        DrawTestTriangle(TriBaseXStart, TriBaseXEnd, TriBaseYPos, TriSideXLengthIn, TriSideYLengthUp - 90);
+        TriSideYLengthUp = Math.tan(Math.PI / 3) * LengthAngleSideOrig * BaseLengthFactor;
+        DrawTestTriangle(TriBaseXStart, TriBaseXEnd, TriBaseYPos, TriSideXLengthIn, TriSideYLengthUp);
         TriSideYLengthUp = Math.tan(AngleOrig) * LengthAngleSideOrig * BaseLengthFactor;
 
     };
 
     DecrAng = function () {
         paper2.clear();
-        TriSideYLengthUp = Math.tan(Math.PI / 4) * LengthAngleSideOrig * BaseLengthFactor;
+        TriSideYLengthUp = Math.tan(Math.PI / 6) * LengthAngleSideOrig * BaseLengthFactor;
         DrawTestTriangle(TriBaseXStart, TriBaseXEnd, TriBaseYPos, TriSideXLengthIn, TriSideYLengthUp);
         TriSideYLengthUp = Math.tan(AngleOrig) * LengthAngleSideOrig * BaseLengthFactor;
     };
